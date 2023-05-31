@@ -17,7 +17,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	if (new == NULL)
 		return (NULL); /* Incase fails to allocate memory*/
 
-	new->a = value;
+	new->n = value;
 	new->parent = parent;
 	new->left = NULL;
 	new->right = NULL;
